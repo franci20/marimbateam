@@ -59,6 +59,15 @@
         right: 100px;
         max-width: 200px;
         z-index: 4;
+        width: 50%;
+        height: 22%;
+        box-shadow: 0px 5px 20px 15px rgba(0, 63, 44, 0.391);
+        width: 300px;
+        border-top-left-radius: 100000%;
+        border-top-right-radius: 100000%;
+        border-bottom-right-radius: 100000%;
+        border-bottom-left-radius: 100000%;
+        background-color: rgba(0, 109, 18, 0.083);
     }
     /* contenido principal*/
     
@@ -78,6 +87,12 @@
     .logoFoot {
         width: 85px;
         float: left;
+        box-shadow: 0px 5px 20px 15px rgba(0, 0, 0, 0.391);
+        border-top-left-radius: 100000%;
+        border-top-right-radius: 100000%;
+        border-bottom-right-radius: 100000%;
+        border-bottom-left-radius: 100000%;
+        background-color: rgba(0, 0, 0, 0.145);
     }
     
     .footer {

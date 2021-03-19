@@ -30,6 +30,7 @@ html {
     padding: 0;
     overflow: hidden;
     background-color: rgb(123, 158, 137, 0.7);
+    margin-bottom: 20px;
 }
 
 .navbar li {
@@ -48,6 +49,7 @@ html {
 
 .navbar li a:hover {
     background-color: rgb(83, 179, 142);
+    color: orange;
 }
 
 .logoNavbar {
@@ -67,9 +69,6 @@ html {
     border-bottom-left-radius: 100000%;
     background-color: rgba(0, 109, 18, 0.083);
 }
-
-
-/* contenido principal*/
 
 .principalContent {
     width: 55%;
@@ -103,9 +102,11 @@ h1 {
     bottom: 0;
     width: 100%;
     padding-top: 0;
-    background-color: rgb(123, 158, 137, 0.5);
     color: white;
     text-align: center;
+    background-image: url("/indexs/Images/headerWeed.jpg");
+    background-position-y: 83%;
+    opacity: 0.4;
 }
 
 .ulFoot {
@@ -113,6 +114,7 @@ h1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    opacity: 1;
 }
 
 .ulFoot li {
@@ -132,8 +134,55 @@ h1 {
     background-color: rgb(123, 158, 137, 0.5);
 }
 
-.copyright {
-    top: 20%;
-    position: absolute;
-    left: 40%;
+
+/*PICTURES */
+
+.row>.column {
+    margin-top: 150px;
+    font-weight: inherit;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(182, 182, 182);
+    zoom: 50%;
+    margin-left: 0%;
+    margin-right: 10%;
+    margin-bottom: 250px;
+    float: right;
 }
+
+.principalContent {
+    margin: 0;
+    padding: 0;
+    margin-top: 450px;
+    margin-left: 14%;
+    margin-right: 20%;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 450px;
+}
+
+.principalContent h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.principalContent p {
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+/*
+.footer #skinFoot img {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 55%;
+    padding-top: 0;
+    background-color: rgb(123, 158, 137, 0.5);
+    text-align: center;
+    opacity: 0.45;
+}*/
