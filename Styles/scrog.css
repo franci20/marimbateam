@@ -22,7 +22,7 @@ html {
     padding-top: 1%;
     padding-bottom: 1%;
     margin-bottom: 100px;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .navbar ul {
@@ -30,8 +30,11 @@ html {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(123, 158, 137, 0.7);
-    margin-bottom: 20px;
+    background-image: url("/indexs/Images/headerWeed.jpg");
+    background-position-y: 75%;
+    background-size: 300px;
+    opacity: 0.7;
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
 }
 
 .navbar li {
@@ -42,26 +45,26 @@ html {
 
 .navbar li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .navbar li a:hover {
-    background-color: rgb(83, 179, 142);
-    color: orange;
+    background-color: rgb(115, 83, 179);
 }
 
 .logoNavbar {
     float: right;
     position: absolute;
-    top: 120px;
+    top: 102px;
     right: 100px;
     max-width: 200px;
     z-index: 4;
-    width: 100%;
-    height: 22%;
+    width: 130%;
+    height: 24%;
     filter: drop-shadow(12px 8px 12px rgba(0, 0, 0, 0.035));
     zoom: 105%;
 }
@@ -173,7 +176,7 @@ h1 {
 
 #ig:hover {
     background-color: rgba(199, 103, 255, 0.816);
-    box-shadow: 2px 1px 1px 4px rgba(255, 199, 94, 0.734);
+    box-shadow: 2px 1px 1px 4px rgba(255, 199, 94, 0.93);
 }
 
 #tw:hover {
