@@ -128,8 +128,12 @@ h1 {
     text-decoration: none;
 }
 
-.ulFoot li a:hover {
-    background-color: rgb(123, 158, 137, 0.5);
+#ig:hover {
+    background-color: rgba(162, 0, 255, 0.816);
+}
+
+#tw:hover {
+    background-color: rgba(0, 139, 232, 0.816);
 }
 
 .copyright {
