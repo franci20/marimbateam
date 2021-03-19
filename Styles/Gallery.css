@@ -1,0 +1,163 @@
+    * {
+        margin: 0;
+        transition: 0.4s all;
+        padding: 0;
+        font-size: 1.3rem;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    html {
+        background: url(../images/fondo.jpg)no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .rectanguloSuperior {
+        width: 100%;
+        background: #8EA78A;
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-bottom: 100px;
+    }
+    
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(123, 158, 137, 0.7);
+        margin-bottom: 20px;
+    }
+    
+    .navbar li {
+        float: left;
+        border: black;
+        border-right: solid black;
+    }
+    
+    .navbar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .navbar li a:hover {
+        background-color: rgb(83, 179, 142);
+        color: orange;
+    }
+    
+    .logoNavbar {
+        float: right;
+        position: absolute;
+        top: 120px;
+        right: 100px;
+        max-width: 200px;
+        z-index: 4;
+    }
+    /* contenido principal*/
+    
+    .principalContent {
+        width: 55%;
+        background-color: rgba(182, 182, 182, 0.8);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 20px;
+    }
+    
+    .principalContent p,
+    h1 {
+        color: black;
+    }
+    
+    .logoFoot {
+        width: 85px;
+        float: left;
+    }
+    
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-top: 0;
+        background-color: rgb(123, 158, 137, 0.5);
+        color: white;
+        text-align: center;
+    }
+    
+    .ulFoot {
+        float: right;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .ulFoot li {
+        float: left;
+        list-style: none;
+    }
+    
+    *.ulFoot li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .ulFoot li a:hover {
+        background-color: rgb(123, 158, 137, 0.5);
+    }
+    
+    .copyright {
+        top: 20%;
+        position: absolute;
+        left: 40%;
+    }
+    
+    .row>.column a img {
+        margin: 0;
+        padding: 0;
+        font-weight: inherit;
+        font-size: 14px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(182, 182, 182);
+        zoom: 50%;
+        margin-left: 60%;
+        margin-right: 40%;
+        margin-bottom: 0%;
+        float: right;
+        border-bottom-width: 5px;
+        border-bottom-color: crimson;
+    }
+    
+    .spaceBottom {
+        background-color: rgb(123, 158, 137, 0.7);
+    }
+    
+    .titleImg {
+        font-size: 21px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: rgba(0, 61, 110, 0.521);
+        text-decoration: cadetblue;
+        margin-left: 39%;
+        text-align: center;
+        margin-right: 40%;
+        margin-bottom: 10%;
+        margin-top: 0%;
+        box-shadow: 0px 0px 4px 2px rgba(0, 61, 110, 0.521);
+    }
+    
+    .row a {
+        text-decoration: none;
+    }
+    
+    .row>a :hover {
+        background-color: rgb(0, 166, 231);
+    }
